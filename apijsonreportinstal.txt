@@ -1,0 +1,93 @@
+Microsoft Windows [Version 10.0.19042.1237]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DELL>node -v
+v14.18.0
+
+Microsoft Windows [Version 10.0.19042.1237]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DELL>node -v
+v14.18.0
+
+C:\Users\DELL>npm -v
+6.14.15
+
+C:\Users\DELL>npm install -g newman
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+C:\Users\DELL\AppData\Roaming\npm\newman -> C:\Users\DELL\AppData\Roaming\npm\node_modules\newman\bin\newman.js
++ newman@5.3.0
+added 129 packages from 187 contributors in 30.008s
+
+C:\Users\DELL>
+
+C:\Users\DELL>npm install newman-reporter-html
+npm WARN saveError ENOENT: no such file or directory, open 'C:\Users\DELL\package.json'
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN enoent ENOENT: no such file or directory, open 'C:\Users\DELL\package.json'
+npm WARN newman-reporter-html@1.0.5 requires a peer of newman@4 but none is installed. You must install peer dependencies yourself.
+npm WARN DELL No description
+npm WARN DELL No repository field.
+npm WARN DELL No README data
+npm WARN DELL No license field.
+
++ newman-reporter-html@1.0.5
+added 12 packages from 44 contributors and audited 12 packages in 4.224s
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 4 vulnerabilities (2 low, 1 high, 1 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+C:\Users\DELL>
+
+
+Report
+-------------------------------
+
+C:\Users\DELL\Desktop\project1>newman run  Datadriven.postman_collection.json
+newman
+
+Datadriven
+
+→ Postmethodemployeedatavalidation
+  POST http://dummy.restapiexample.com/api/v1/create [200 OK, 1.3kB, 1282ms]
+  √  content type
+  √  check responce code
+  √  Check status code
+  √  check ststus
+
+→ DatadriventestinExcel
+  POST http://dummy.restapiexample.com/api/v1/create [200 OK, 1.3kB, 990ms]
+  √  content type
+  √  check responce code
+  √  Check status code
+  √  check ststus
+
+┌─────────────────────────┬──────────────────────┬─────────────────────┐
+│                         │             executed │              failed │
+├─────────────────────────┼──────────────────────┼─────────────────────┤
+│              iterations │                    1 │                   0 │
+├─────────────────────────┼──────────────────────┼─────────────────────┤
+│                requests │                    2 │                   0 │
+├─────────────────────────┼──────────────────────┼─────────────────────┤
+│            test-scripts │                    2 │                   0 │
+├─────────────────────────┼──────────────────────┼─────────────────────┤
+│      prerequest-scripts │                    0 │                   0 │
+├─────────────────────────┼──────────────────────┼─────────────────────┤
+│              assertions │                    8 │                   0 │
+├─────────────────────────┴──────────────────────┴─────────────────────┤
+│ total run duration: 2.4s                                             │
+├──────────────────────────────────────────────────────────────────────┤
+│ total data received: 260B (approx)                                   │
+├──────────────────────────────────────────────────────────────────────┤
+│ average response time: 1136ms [min: 990ms, max: 1282ms, s.d.: 146ms] │
+└──────────────────────────────────────────────────────────────────────┘
+
+C:\Users\DELL\Desktop\project1>
+
+
+
+

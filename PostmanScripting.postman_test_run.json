@@ -1,0 +1,73 @@
+{
+	"id": "4573b056-0848-4ce2-9af3-d5dbfc07fbf4",
+	"name": "PostmanScripting",
+	"timestamp": "2021-10-01T05:35:17.934Z",
+	"collection_id": "14071079-bd5b85ce-b51a-4b82-8368-09909a6036f9",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 5,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "c10be600-1ebb-4e04-b713-34d10b917914",
+			"name": "https://reqres.in/api/users/2",
+			"url": "https://reqres.in/api/users/4",
+			"time": 75,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"ststues is 200": true,
+				"Content-Type is present": true,
+				"Response time is less than 200ms": true,
+				"Status code name has string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"ststues is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				75
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"ststues is 200": true,
+					"Content-Type is present": true,
+					"Response time is less than 200ms": true,
+					"Status code name has string": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 75,
+	"collection": {
+		"requests": [
+			{
+				"id": "c10be600-1ebb-4e04-b713-34d10b917914",
+				"method": "GET"
+			}
+		]
+	}
+}
